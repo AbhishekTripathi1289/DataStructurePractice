@@ -2,20 +2,35 @@ package com.example.datastructurepractice.array
 
 
 fun main(args: Array<String>) {
+    var array = arrayOf(5, -10 , 6, 90 , 3)
 
-    var array = arrayOf(1, 2, 3 ,4, 5, 6, 7)
-    var i = 0
-
-    while(i < array.size)
+    for(i in 0 until array.size)
     {
-        i++
+
     }
 
     array.forEach {
         print("$it  ,")
     }
+}
+
+
+
+
+
+/*
+var array = arrayOf(5, -10 , 6, 90 , 3)
+
+for(i in 0 until array.size)
+{
 
 }
+
+array.forEach {
+    print("$it  ,")
+}
+*/
+
 
 
 
