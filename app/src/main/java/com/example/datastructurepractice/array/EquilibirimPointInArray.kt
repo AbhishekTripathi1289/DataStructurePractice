@@ -1,6 +1,8 @@
 package com.example.datastructurepractice.array
 
 
+/*The equilibrium index of an array is an index such that the sum of elements at lower
+indexes is equal to the sum of elements at higher indexes. */
 fun main(args: Array<String>) {
     betterApproach()
 }
@@ -16,12 +18,13 @@ fun betterApproach() {
     }
     for(i in 0 until array.size)
     {
-        preSum += array[i]
+        sum -= array[i]
         if(preSum == sum)
         {
             println("Major Element found ${array[i]}")
         }
-        sum -= array[i]
+        preSum += array[i]
+
         println("presum = $preSum postsum = $sum")
     }
 }

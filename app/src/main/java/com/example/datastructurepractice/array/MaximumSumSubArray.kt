@@ -4,6 +4,7 @@ package com.example.datastructurepractice.array
 fun main(args: Array<String>) {
 
     var array = arrayOf(2, 3, -8, 7, -1, 2, 3)
+
     var i = 0
     var currSum = 0
     var maxSum = 0

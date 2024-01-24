@@ -1,5 +1,7 @@
 package com.example.datastructurepractice.array
 
+
+/*Find sub array which have continues even and odd element in array*/
 fun main(args: Array<String>) {
 
     var array = arrayOf(10, 12, 8, 4)

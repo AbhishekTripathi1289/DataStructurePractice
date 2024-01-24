@@ -1,10 +1,29 @@
 package com.example.datastructurepractice.array
 
 
-
+/*Array should be sorted*/
 fun main(args: Array<String>) {
 
     var array = arrayOf(1, 2, 3, 4, 13)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     var currentValue = 1
 
