@@ -4,6 +4,21 @@ fun main(args: Array<String>) {
 
     var array = arrayOf(5, -10 , 6, 90 , 3)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var k = 2
     var curSum = 0
     var maxSum = 0

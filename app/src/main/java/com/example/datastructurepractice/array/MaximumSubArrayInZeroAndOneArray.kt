@@ -3,6 +3,22 @@ package com.example.datastructurepractice.array
 fun main(args: Array<String>) {
     var array = arrayOf(-1, -1, -1, -1, 1, -1, 1, 1, -1, -1, 1)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var hashmap = hashMapOf<Int, Int>()
     hashmap.put(0, -1)
     var start = 0

@@ -14,17 +14,6 @@ fun main(args: Array<String>) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     var currentValue = 1
 
     for (i in 0 until array.size) {

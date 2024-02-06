@@ -4,12 +4,34 @@ package com.example.datastructurepractice.array
 
 fun main(args: Array<String>) {
 
-    var array = arrayOf(2, 4)
-    var sum = 3
+    var array = arrayOf(1, 4, 20, 3, 10, 5)
+    var sum = 33
     var cSum = array[0]
     var j = 0
     var i = 1
     var flag = 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     while (i < array.size)
     {

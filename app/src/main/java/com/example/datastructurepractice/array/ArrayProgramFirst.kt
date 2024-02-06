@@ -15,9 +15,6 @@ fun main(args: Array<String>) {
 }
 
 
-
-
-
 /*
 var array = arrayOf(5, -10 , 6, 90 , 3)
 

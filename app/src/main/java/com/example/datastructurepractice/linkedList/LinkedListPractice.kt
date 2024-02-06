@@ -85,13 +85,7 @@ class MyLinkedList {
         {
             while (tempHead?.next?.data != data)
             {
-                if(tempHead?.next?.next == null && tempHead?.next?.data == data)
-                {
-                    tempHead.next = null
-                }
-                else{
-                    tempHead = tempHead?.next
-                }
+                tempHead = tempHead?.next
             }
 
             if(tempHead?.next?.data == data)
@@ -150,10 +144,11 @@ fun main(args: Array<String>) {
     myLinkedList.insertAtbeginOfLinkedList(2)
     myLinkedList.insertAtEndOfLinkedList(222)
 
-    //myLinkedList.deleteElementInLinkedList(111)
+   myLinkedList.deleteElementInLinkedList(222)
+//    myLinkedList.printlnElementOfLinkedList()
     //myLinkedList.deleteDuplicateElementInSortedLinkedList()
-    myLinkedList.reverseLinkedList()
-    myLinkedList.printlnElementOfLinkedListRecusive(myLinkedList.head)
+  /*  myLinkedList.reverseLinkedList()
+    myLinkedList.printlnElementOfLinkedListRecusive(myLinkedList.head)*/
 
 
 

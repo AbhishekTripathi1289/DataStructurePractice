@@ -21,7 +21,7 @@ class LruCacheImplementation {
     private final Node dummyHead;
     private final Node dummyTail;
 
-    public LRUCache(int capacity) {
+    public LruCacheImplementation(int capacity) {
         this.capacity = capacity;
         this.cache = new HashMap<>();
         this.dummyHead = new Node(-1, -1);

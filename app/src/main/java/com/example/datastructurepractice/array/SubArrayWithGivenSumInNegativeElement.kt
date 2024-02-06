@@ -6,6 +6,25 @@ fun main(args: Array<String>) {
     var array = arrayOf(10, 2, -2, -20, 10)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var hashmap = hashMapOf<Int, Int>()
     var cSum = 0
     var sum = -10

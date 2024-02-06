@@ -4,7 +4,6 @@ class StackImplementtationUsingArray
 {
     class StackUsingArray<T>{
         private var arraylist = mutableListOf<T>()
-        private var cIndex = -1
 
         fun push(element: T)
         {
