@@ -3,29 +3,6 @@ package com.example.datastructurepractice.array
 fun main(args: Array<String>) {
     var array = arrayOf(1, -2, -3, -4, -5, -6, 7, 8, 9, 10)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     var j = array.size-1
     var temp = 0
     var i = 0
@@ -51,6 +28,7 @@ fun main(args: Array<String>) {
         }
     }
 
+
     var k = 0
     while(k< array.size && i < array.size)
     {
@@ -62,8 +40,6 @@ fun main(args: Array<String>) {
         k+=2
 
     }
-
-
     array.forEach {
         print("$it  ,")
     }

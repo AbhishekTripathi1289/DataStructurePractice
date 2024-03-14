@@ -3,6 +3,34 @@ package com.example.datastructurepractice.array
 fun main(args: Array<String>) {
     var array = arrayOf(2, 2, 2, 0 , 0, 0, 1, 1, 1)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     var low = 0
     var high = array.size-1
     var mid = 0

@@ -6,6 +6,19 @@ fun main(args: Array<String>) {
 
     var array = arrayOf(10, 12, 8, 4)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     var curLen = 1
     var maxLen = 1
 
